@@ -12,6 +12,7 @@ import {Nav,
     } from './navbarElements';
 
 const Navbar = ({toggle}) => {
+
     return (
         <>
           <Nav>
