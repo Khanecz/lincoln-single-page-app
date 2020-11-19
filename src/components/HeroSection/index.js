@@ -13,7 +13,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Lincoln Truesdale Cline</HeroH1>
                 <HeroP>
-                    the best fucking english teacher
+                    english teacher
                 </HeroP>
             </HeroContent>
         </HeroContainer>

@@ -95,7 +95,7 @@ align-items: center;
 
 export const NavButtonLink = styled(LinkRouter)`
 border-radius: 50px;
-background: #EE6C4D;
+background: #17a398;
 white-space: nowrap;
 padding: 10px 22px;
 color: #33312E;

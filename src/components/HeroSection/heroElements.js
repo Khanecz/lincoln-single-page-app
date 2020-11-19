@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from './booksEnglishDark.png';
+import img from '../../images/booksEnglishDark.png';
 
 
 export const HeroContainer = styled.div`
