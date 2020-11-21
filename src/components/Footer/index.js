@@ -3,8 +3,6 @@ import { FaLinkedin } from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
 import {FooterContainer,
         FooterWrap, 
-        FooterLinksContainer,
-        FooterLink,
         SocialMedia,
         WebsiteRights,
         SocialIcons,
