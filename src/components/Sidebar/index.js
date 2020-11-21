@@ -27,12 +27,9 @@ function Sidebar({isOpen, toggle}) {
                     <SidebarLink to="proofreading" onClick={toggle}>
                         Proofreading
                     </SidebarLink>
-                    <SidebarLink to="proofreading" onClick={toggle}>
-                        Menu Item
-                    </SidebarLink>
                 </SidebarMenu>
                 <SideButtonWrap>
-                    <SidebarRoute to="/">
+                    <SidebarRoute aria-label="email" href="mailto:clinelin@gmail.com">
                         Contact me
                     </SidebarRoute>
                 </SideButtonWrap>

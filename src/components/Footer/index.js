@@ -26,7 +26,7 @@ const Footer = () => {
                         Michael Řežábek @ {new Date().getFullYear()}
                     </WebsiteRights>
                     <SocialIcons>
-                        <SocialIconLink href="//https://www.linkedin.com/in/lincolncline/" target="_blank" aria-label="LinkedIn">
+                        <SocialIconLink href="//www.linkedin.com/in/lincolncline/" target="_blank" aria-label="LinkedIn">
                             <FaLinkedin/>
                         </SocialIconLink>
                     </SocialIcons>

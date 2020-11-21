@@ -30,7 +30,7 @@ padding: 0 24px;
 max-width: 1800px;
 `
 
-export const NavLogo = styled(LinkRouter)`
+export const NavLogo = styled.a`
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
@@ -94,7 +94,7 @@ align-items: center;
 }
 `
 
-export const NavButtonLink = styled(LinkRouter)`
+export const NavButtonLink = styled.a`
 border-radius: 50px;
 background: #17a398;
 white-space: nowrap;

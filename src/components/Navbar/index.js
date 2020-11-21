@@ -64,11 +64,11 @@ const Navbar = ({toggle}) => {
                           duration={500}
                           spy={true}
                           exact='true'
-                          offset={0-80}>Proofreading</NavLinks>
+                          offset={-80}>Proofreading</NavLinks>
                       </NavItem>
                   </NavMenu>
                   <NavButton>
-                      <NavButtonLink to="mailto:clinelin@gmail.com">Contact me</NavButtonLink>
+                      <NavButtonLink aria-label="email" href="mailto:clinelin@gmail.com">Contact me</NavButtonLink>
                   </NavButton>
               </NavbarContainer>
           </Nav>
