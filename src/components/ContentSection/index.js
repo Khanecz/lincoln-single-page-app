@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {ContentContainer,
         ContentWrapper,
         ContentRow,
@@ -7,10 +7,12 @@ import {ContentContainer,
         TextWrapper,
         TopLine,
         Heading,
-        Text        
+        Text,
+        ImgWrap,
+        Img
 } from "./contentElements";
 
-const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, darkText, lightText}) => {
+const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, darkText, lightText, img, alt, isRounded}) => {
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
@@ -24,7 +26,9 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                         </TextWrapper>
                         </Column1>
                         <Column2>
-
+                        <ImgWrap>
+                            <Img src={img} alt={alt} isRounded = {isRounded} />
+                        </ImgWrap>
                         </Column2>
                     </ContentRow>
                 </ContentWrapper>

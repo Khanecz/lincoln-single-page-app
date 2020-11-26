@@ -35,7 +35,7 @@ grid-template-areas: ${({imgStart}) => (imgStart ? `'col2
 
 export const Column1 = styled.div`
 margin-bottom: 15px;
-padding: 0 15px;
+padding: 0 50px;
 grid-area: col1;
 `
 
@@ -79,4 +79,16 @@ margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
 color: ${({darkText}) => (darkText ? '#fff' : '#fff')};
+`
+
+export const ImgWrap = styled.div`
+max-width: 555px;
+height: 100%;
+`
+
+export const Img = styled.img`
+width: 100%;
+margin: 0 0 10px 0;
+padding-right: 0;
+border-radius: ${({isRounded}) => (isRounded ? "50%" : "")};
 `

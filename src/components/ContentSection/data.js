@@ -1,3 +1,7 @@
+import portrait from '../../images/lil.jpg';
+import teachingImg from '../../images/teaching.svg';
+import proofreadingImg from '../../images/proofread.svg';
+
 export const homeObjOne = {
     id: 'about',
     lightBg: true,
@@ -9,7 +13,9 @@ export const homeObjOne = {
     buttonLabel: 'Contact me',
     imgStart: false,
     primary: true,
-    darkText: false
+    darkText: false,
+    img: portrait,
+    isRounded: true
 }
 
 export const homeObjTwo = {
@@ -21,9 +27,11 @@ export const homeObjTwo = {
     headLine: 'So much teaching',
     description: 'I will teach you, I will teach your mother and your dog, too.',
     buttonLabel: 'Contact me',
-    imgStart: false,
+    imgStart: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    img: teachingImg,
+    isRounded: false
 }
 
 export const homeObjThree = {
@@ -37,5 +45,7 @@ export const homeObjThree = {
     buttonLabel: 'Contact me',
     imgStart: false,
     primary: true,
-    darkText: false
+    darkText: false,
+    img: proofreadingImg,
+    isRounded: false
 }
