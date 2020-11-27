@@ -40,7 +40,7 @@ export const homeObjThree = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Proofreading',
-    headLine: 'So much proofdreading',
+    headLine: 'So much proofreading',
     description: 'I will proofread you, I will proofread your mother and your dog, too.',
     buttonLabel: 'Contact me',
     imgStart: false,

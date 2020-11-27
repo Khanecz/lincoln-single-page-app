@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContentContainer = styled.div`
 color: #fff;
-background: ${({lightBg}) => (lightBg ? "#33312E" : "black")};
+background: ${({lightBg}) => (lightBg ? "#42403C" : "black")};
 
 @media screen and (max-width: 768px){
     padding: 100px 0;
@@ -92,3 +92,11 @@ margin: 0 0 10px 0;
 padding-right: 0;
 border-radius: ${({isRounded}) => (isRounded ? "50%" : "")};
 `
+/*
+export const PriceList = styled.ul`
+
+`
+
+export const ListItem = styled.li`
+
+`*/

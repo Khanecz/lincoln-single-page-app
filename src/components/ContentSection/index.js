@@ -9,7 +9,9 @@ import {ContentContainer,
         Heading,
         Text,
         ImgWrap,
-        Img
+        Img,
+        /*PriceList,
+        ListItem*/
 } from "./contentElements";
 
 const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, darkText, lightText, img, alt, isRounded}) => {
