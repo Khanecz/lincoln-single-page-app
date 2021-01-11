@@ -17,7 +17,7 @@ import {ContentContainer,
 } from "./contentElements";
 
 const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
-    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName}) => {
+    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
@@ -37,7 +37,7 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                                 <ListItem>{listItem5}</ListItem>
                             </List>
                         </TextWrapper>
-                        <NavButton>
+                        <NavButton displayButton={displayButton}>
                             <NavButtonLink aria-label={buttonName} href={buttonLink}>{buttonName}</NavButtonLink>
                         </NavButton>
                         </Column1>

@@ -1,10 +1,10 @@
 import React from 'react'
 import {ReviewContainer, ReviewWrapper, TextWrapper, TopLine, Text, Author} from './reviewElements';
 
-const ReviewSection = ({review, author, review2, author2}) => {
+const ReviewSection = ({review, author, review2, author2, id}) => {
     return (
         <>
-            <ReviewContainer>
+            <ReviewContainer id={id}>
                 <ReviewWrapper>
                     <TextWrapper>
                         <TopLine>REVIEWS</TopLine>

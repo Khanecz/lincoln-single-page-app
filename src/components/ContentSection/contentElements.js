@@ -102,8 +102,9 @@ margin-top: 15px;
 `
 
 export const NavButton = styled.nav`
-display: flex;
+display: ${({displayButton}) => (displayButton ? "flex" : "none")};
 align-items: center;
+
 
 @media screen and (max-width: 768px) {
     display: none;

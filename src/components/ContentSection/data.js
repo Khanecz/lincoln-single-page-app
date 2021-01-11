@@ -26,7 +26,8 @@ export const homeObjOne = {
     listItem4: `I am truly passionate about knowledge and learning. Knowledge is power.`,
     listItem5: `My hobbies are: writing, reading, gaming, nature, science, and traveling. (Basically I'm a huge nerd.)`,
     buttonLink: cv,
-    buttonName: "Download CV"
+    buttonName: "Download CV",
+    displayButton: true
 
 }
 
@@ -46,6 +47,7 @@ export const homeObjTwo = {
     listItem1: `I  was TEFL certified at The Language House in Prague, Czech Republic. They are a recognized member of the College of Teachers, U.K., accredited and externally monitored by IATQuO. (Honestly, I'm super impressive.)`,
     listItem2: `I also received a Young Learners and Teens Certificate. This is a 12-hour IATQuO-accredited TEFL extension certificate focused on the methodology and skills required to teach English to children aged 3-17. (Note: Though I am certified to teach children, I specialize in teaching people over the age of 15.)`,
     listItem3: `Specialized in:`,
+    displayButton: false
 }
 
 export const homeObjThree = {
@@ -63,6 +65,25 @@ export const homeObjThree = {
     img: proofreadingImg,
     isRounded: false,
     buttonLink: portfolio,
-    buttonName: "Download Portfolio"
+    buttonName: "Download Portfolio",
+    displayButton: true
+
+}
+
+export const homeObjFour = {
+    id: 'pricing',
+    lightBg: false,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Pricing',
+    headLine: 'Money',
+    description: 'Teaching:',
+    buttonLabel: 'Contact me',
+    imgStart: true,
+    primary: true,
+    darkText: false,
+    img: proofreadingImg,
+    isRounded: false,
+    displayButton: false
 
 }
