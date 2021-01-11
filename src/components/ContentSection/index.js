@@ -14,7 +14,7 @@ import {ContentContainer,
         ListItem*/
 } from "./contentElements";
 
-const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, darkText, lightText, img, alt, isRounded}) => {
+const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, lightText, img, alt, isRounded}) => {
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
@@ -25,6 +25,7 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText = {lightText}>{headLine}</Heading>
                             <Text darkText={darkText}>{description}</Text>
+                            <Text darkText={darkText}>{description2}</Text>
                         </TextWrapper>
                         </Column1>
                         <Column2>
