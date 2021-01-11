@@ -37,3 +37,16 @@ letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
 `
+
+export const Text = styled.p`
+max-width: 1000px;
+margin-top: 50px;
+margin-bottom: 35px;
+font-size: 18px;
+line-height: 24px;
+color: ${({darkText}) => (darkText ? '#fff' : '#fff')};
+`
+
+export const Author = styled.p`
+align-items: right;
+`

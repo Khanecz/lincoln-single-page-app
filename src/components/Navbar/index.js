@@ -66,6 +66,22 @@ const Navbar = ({toggle}) => {
                           exact='true'
                           offset={-80}>Proofreading</NavLinks>
                       </NavItem>
+                      <NavItem>
+                          <NavLinks to="pricing"
+                          smooth={true}
+                          duration={500}
+                          spy={true}
+                          exact='true'
+                          offset={-80}>Pricing</NavLinks>
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="reviews"
+                          smooth={true}
+                          duration={500}
+                          spy={true}
+                          exact='true'
+                          offset={-80}>Reviews</NavLinks>
+                      </NavItem>
                   </NavMenu>
                   <NavButton>
                       <NavButtonLink aria-label="email" href="mailto:clinelin@gmail.com">Contact me</NavButtonLink>

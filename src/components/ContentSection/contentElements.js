@@ -12,7 +12,7 @@ background: ${({lightBg}) => (lightBg ? "#42403C" : "black")};
 export const ContentWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
+height: 1080px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
@@ -63,7 +63,7 @@ margin-bottom: 16px;
 
 export const Heading = styled.h1`
 margin-bottom: 24px;
-font-size: 48px;
+font-size: 32px;
 line-height: 1.1;
 font-weight: 600;
 color: ${({lightText}) => (lightText ? 'red' : '#17a398')};
@@ -92,11 +92,40 @@ margin: 0 0 10px 0;
 padding-right: 0;
 border-radius: ${({isRounded}) => (isRounded ? "50%" : "")};
 `
-/*
-export const PriceList = styled.ul`
+
+export const List = styled.ul`
 
 `
 
 export const ListItem = styled.li`
+margin-top: 15px;
+`
 
-`*/
+export const NavButton = styled.nav`
+display: flex;
+align-items: center;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
+`
+
+export const NavButtonLink = styled.a`
+border-radius: 50px;
+background: #17a398;
+white-space: nowrap;
+padding: 10px 22px;
+color: #33312E;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+font-weight: 500;
+
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: black;
+}
+`

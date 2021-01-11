@@ -1,13 +1,17 @@
 import React from 'react'
-import {ReviewContainer, ReviewWrapper, TextWrapper, TopLine} from './reviewElements';
+import {ReviewContainer, ReviewWrapper, TextWrapper, TopLine, Text, Author} from './reviewElements';
 
-const ReviewSection = () => {
+const ReviewSection = ({review, author, review2, author2}) => {
     return (
         <>
             <ReviewContainer>
                 <ReviewWrapper>
                     <TextWrapper>
                         <TopLine>REVIEWS</TopLine>
+                        <Text>{review}</Text>
+                        <Author>{author}</Author>
+                        <Text>{review2}</Text>
+                        <Author>{author2}</Author>
                     </TextWrapper>
                 </ReviewWrapper>
             </ReviewContainer>

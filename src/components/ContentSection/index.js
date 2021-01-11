@@ -10,11 +10,14 @@ import {ContentContainer,
         Text,
         ImgWrap,
         Img,
-        /*PriceList,
-        ListItem*/
+        ListItem,
+        List,
+        NavButton,
+        NavButtonLink
 } from "./contentElements";
 
-const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, lightText, img, alt, isRounded}) => {
+const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
+    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName}) => {
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
@@ -26,7 +29,17 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                             <Heading lightText = {lightText}>{headLine}</Heading>
                             <Text darkText={darkText}>{description}</Text>
                             <Text darkText={darkText}>{description2}</Text>
+                            <List>
+                                <ListItem>{listItem1}</ListItem>
+                                <ListItem>{listItem2}</ListItem>
+                                <ListItem>{listItem3}</ListItem>
+                                <ListItem>{listItem4}</ListItem>
+                                <ListItem>{listItem5}</ListItem>
+                            </List>
                         </TextWrapper>
+                        <NavButton>
+                            <NavButtonLink aria-label={buttonName} href={buttonLink}>{buttonName}</NavButtonLink>
+                        </NavButton>
                         </Column1>
                         <Column2>
                         <ImgWrap>

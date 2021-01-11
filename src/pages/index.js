@@ -6,6 +6,7 @@ import ContentSection from '../components/ContentSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/ContentSection/data';
 import Footer from '../components/Footer';
 import ReviewSection from '../components/ReviewSection';
+import {ReviewOne} from '../components/ReviewSection/data';
 
 
 
@@ -24,7 +25,7 @@ export const Home = () => {
             <ContentSection {...homeObjOne} />
             <ContentSection {...homeObjTwo} />
             <ContentSection {...homeObjThree} />
-            <ReviewSection/>
+            <ReviewSection {...ReviewOne}/>
             <Footer/>
         </>
     )
