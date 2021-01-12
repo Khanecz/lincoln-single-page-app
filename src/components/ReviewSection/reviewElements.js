@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ReviewContainer = styled.div`
 color: #fff;
-background: black;
+background: #42403C;
 
 @media screen and (max-width: 768px){
     padding: 100px 0;

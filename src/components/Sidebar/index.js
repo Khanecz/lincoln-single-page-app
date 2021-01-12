@@ -27,6 +27,12 @@ function Sidebar({isOpen, toggle}) {
                     <SidebarLink to="proofreading" onClick={toggle}>
                         Proofreading
                     </SidebarLink>
+                    <SidebarLink to="pricing" onClick={toggle}>
+                        Pricing
+                    </SidebarLink>
+                    <SidebarLink to="reviews" onClick={toggle}>
+                        Reviews
+                    </SidebarLink>
                 </SidebarMenu>
                 <SideButtonWrap>
                     <SidebarRoute aria-label="email" href="mailto:clinelin@gmail.com">

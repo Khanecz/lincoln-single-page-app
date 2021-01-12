@@ -1,26 +1,21 @@
-import React from 'react';
+import React from 'react'
 import {ContentContainer,
-        ContentWrapper,
-        ContentRow,
-        Column1,
-        Column2,
-        TextWrapper,
-        TopLine,
-        Heading,
-        Text,
-        ImgWrap,
-        Img,
-        ListItem,
-        List,
-        NavButton,
-        NavButtonLink
-} from "./contentElements";
-
-const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
+    ContentWrapper,
+    ContentRow,
+    Column1,
+    Column2,
+    TextWrapper,
+    TopLine,
+    Heading,
+    Text,
+    ImgWrap,
+    Img,
+    ListItem,
+    List,
+    NestedListItem
+} from "../ContentSection/contentElements";
+const TeachingSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
     lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
-
-        
-
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
@@ -35,14 +30,17 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                             <List>
                                 <ListItem>{listItem1}</ListItem>
                                 <ListItem>{listItem2}</ListItem>
-                                <ListItem>{listItem3}</ListItem>
-                                <ListItem>{listItem4}</ListItem>
-                                <ListItem>{listItem5}</ListItem>
+                                <ListItem>
+                                    {listItem3}
+                                    <List>
+                                        <NestedListItem>Test prep (IELTS, CAE, CPE, and FCE.)</NestedListItem>
+                                        <NestedListItem>Grammar</NestedListItem>
+                                        <NestedListItem>Conversation</NestedListItem>
+                                        <NestedListItem>Business English</NestedListItem>
+                                    </List>
+                                </ListItem>
                             </List>
                         </TextWrapper>
-                        <NavButton displayButton={displayButton}>
-                            <NavButtonLink aria-label={buttonName} href={buttonLink}>{buttonName}</NavButtonLink>
-                        </NavButton>
                         </Column1>
                         <Column2>
                         <ImgWrap>
@@ -56,4 +54,4 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
     )
 }
 
-export default ContentSection
+export default TeachingSection

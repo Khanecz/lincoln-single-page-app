@@ -7,6 +7,9 @@ import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components
 import Footer from '../components/Footer';
 import ReviewSection from '../components/ReviewSection';
 import {ReviewOne} from '../components/ReviewSection/data';
+import TeachingSection from '../components/TeachingSection/';
+import ProofreadingSection from '../components/ProofreadingSection';
+import PricingSection from '../components/PricingSection';
 
 
 
@@ -23,9 +26,9 @@ export const Home = () => {
             <Navbar toggle={toggle} /> 
             <HeroSection/>
             <ContentSection {...homeObjOne} />
-            <ContentSection {...homeObjTwo} />
-            <ContentSection {...homeObjThree} />
-            <ContentSection {...homeObjFour} />
+            <TeachingSection {...homeObjTwo} />
+            <ProofreadingSection {...homeObjThree} />
+            <PricingSection {...homeObjFour} />
             <ReviewSection {...ReviewOne}/>
             <Footer/>
         </>

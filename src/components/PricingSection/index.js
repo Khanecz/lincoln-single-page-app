@@ -13,10 +13,11 @@ import {ContentContainer,
         ListItem,
         List,
         NavButton,
-        NavButtonLink
-} from "./contentElements";
+        NavButtonLink,
+        NestedListItem
+} from "../ContentSection/contentElements";
 
-const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
+const PricingSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
     lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
 
         
@@ -33,11 +34,19 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                             <Text darkText={darkText}>{description}</Text>
                             <Text darkText={darkText}>{description2}</Text>
                             <List>
-                                <ListItem>{listItem1}</ListItem>
-                                <ListItem>{listItem2}</ListItem>
-                                <ListItem>{listItem3}</ListItem>
-                                <ListItem>{listItem4}</ListItem>
-                                <ListItem>{listItem5}</ListItem>
+                                <ListItem>Teaching:
+                                    <List>
+                                        <NestedListItem>45 minutes: €14</NestedListItem>
+                                        <NestedListItem>60 minutes: €18</NestedListItem>
+                                        <NestedListItem>90 minutes: €27</NestedListItem>
+                                    </List>
+                                </ListItem>
+                                <ListItem>Proofreading:
+                                  <NestedListItem>€4.50 per page</NestedListItem>
+                                </ListItem>
+                                <ListItem>Editing:
+                                    <NestedListItem>€8.50 per page</NestedListItem>
+                                </ListItem>
                             </List>
                         </TextWrapper>
                         <NavButton displayButton={displayButton}>
@@ -56,4 +65,4 @@ const ContentSection = ({lightBg, id, imgStart, topLine, headLine, description, 
     )
 }
 
-export default ContentSection
+export default PricingSection

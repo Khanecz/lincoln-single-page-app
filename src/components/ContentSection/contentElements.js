@@ -19,6 +19,10 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
+
+@media screen and (max-width: 768px) {
+    height: auto;
+}
 `
 
 export const ContentRow = styled.div`
@@ -99,6 +103,11 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
 margin-top: 15px;
+`
+
+export const NestedListItem = styled.li`
+margin-top: 15px;
+margin-left: 40px;
 `
 
 export const NavButton = styled.nav`

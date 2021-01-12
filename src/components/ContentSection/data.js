@@ -1,6 +1,7 @@
 import portrait from '../../images/lil.jpg';
 import teachingImg from '../../images/teaching.svg';
 import proofreadingImg from '../../images/proofread.svg';
+import money from '../../images/money.svg';
 import cv from '../../files/cv.pdf';
 import portfolio from '../../files/portfolio.pdf'
 
@@ -27,7 +28,7 @@ export const homeObjOne = {
     listItem5: `My hobbies are: writing, reading, gaming, nature, science, and traveling. (Basically I'm a huge nerd.)`,
     buttonLink: cv,
     buttonName: "Download CV",
-    displayButton: true
+    displayButton: true,
 
 }
 
@@ -57,7 +58,7 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Proofreading',
     headLine: 'Grammar Nerd Extraordinaire',
-    description: 'I will proofread you, I will proofread your mother and your dog, too.',
+    description: '',
     buttonLabel: 'Contact me',
     imgStart: false,
     primary: true,
@@ -66,7 +67,10 @@ export const homeObjThree = {
     isRounded: false,
     buttonLink: portfolio,
     buttonName: "Download Portfolio",
-    displayButton: true
+    displayButton: true,
+    listItem1: `I have been doing proofreading and editing for 8 years. `,
+    listItem2: `I specialize in American English, but I can also proofread and edit in British, Canadian, and Australian English.`,
+    listItem3: `Experience with:`,
 
 }
 
@@ -75,14 +79,14 @@ export const homeObjFour = {
     lightBg: false,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Pricing',
+    topLine: 'Prices',
     headLine: 'Money',
-    description: 'Teaching:',
+    description: '',
     buttonLabel: 'Contact me',
     imgStart: true,
     primary: true,
     darkText: false,
-    img: proofreadingImg,
+    img: money,
     isRounded: false,
     displayButton: false
 
