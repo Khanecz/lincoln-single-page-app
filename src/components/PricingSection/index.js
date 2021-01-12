@@ -42,10 +42,14 @@ const PricingSection = ({lightBg, id, imgStart, topLine, headLine, description, 
                                     </List>
                                 </ListItem>
                                 <ListItem>Proofreading:
-                                  <NestedListItem>€4.50 per page</NestedListItem>
+                                    <List>
+                                         <NestedListItem>€4.50 per page</NestedListItem>
+                                    </List>
                                 </ListItem>
                                 <ListItem>Editing:
-                                    <NestedListItem>€8.50 per page</NestedListItem>
+                                    <List>
+                                         <NestedListItem>€8.50 per page</NestedListItem>
+                                    </List>
                                 </ListItem>
                             </List>
                         </TextWrapper>

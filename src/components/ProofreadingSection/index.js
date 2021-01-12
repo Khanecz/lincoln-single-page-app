@@ -12,7 +12,9 @@ import {ContentContainer,
     Img,
     ListItem,
     List,
-    NestedListItem
+    NestedListItem,
+    NavButton,
+    NavButtonLink
 } from "../ContentSection/contentElements";
 const ProofreadingSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
     lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
@@ -53,6 +55,9 @@ const ProofreadingSection = ({lightBg, id, imgStart, topLine, headLine, descript
                                 </ListItem>
                             </List>
                         </TextWrapper>
+                        <NavButton displayButton={displayButton}>
+                            <NavButtonLink aria-label={buttonName} href={buttonLink}>{buttonName}</NavButtonLink>
+                        </NavButton>
                         </Column1>
                         <Column2>
                         <ImgWrap>

@@ -80,7 +80,7 @@ export const homeObjFour = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Prices',
-    headLine: 'Money',
+    headLine: 'How much will you pay?',
     description: '',
     buttonLabel: 'Contact me',
     imgStart: true,
