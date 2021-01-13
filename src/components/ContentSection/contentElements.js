@@ -14,7 +14,7 @@ display: grid;
 z-index: 1;
 height: 1080px;
 width: 100%;
-max-width: 1100px;
+max-width: 1300px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
