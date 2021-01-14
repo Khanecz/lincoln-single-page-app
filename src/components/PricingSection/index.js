@@ -18,7 +18,7 @@ import {ContentContainer,
 } from "../ContentSection/contentElements";
 
 const PricingSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
-    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
+    lightText, img, alt, isRounded, buttonLink, buttonName, displayButton}) => {
 
         
 

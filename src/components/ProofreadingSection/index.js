@@ -17,7 +17,7 @@ import {ContentContainer,
     NavButtonLink
 } from "../ContentSection/contentElements";
 const ProofreadingSection = ({lightBg, id, imgStart, topLine, headLine, description, description2, darkText, 
-    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, listItem4, listItem5, buttonLink, buttonName, displayButton}) => {
+    lightText, img, alt, isRounded, listItem1, listItem2, listItem3, buttonLink, buttonName, displayButton}) => {
     return (
         <>
             <ContentContainer lightBg={lightBg} id={id}>
