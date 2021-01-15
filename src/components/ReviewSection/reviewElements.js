@@ -28,7 +28,7 @@ padding-bottom: 60px;
 `
 
 export const TopLine = styled.p`
-margin-top: 128px;
+margin-top: 64px;
 color: #fff;
 font-size: 16px;
 line-height: 16px;
