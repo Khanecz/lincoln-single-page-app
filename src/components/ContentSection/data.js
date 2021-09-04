@@ -1,4 +1,4 @@
-import portrait from '../../images/lil.jpg';
+import portrait from '../../images/LincNew.jpg';
 import teachingImg from '../../images/teaching.svg';
 import proofreadingImg from '../../images/proofread.svg';
 import money from '../../images/money.svg';

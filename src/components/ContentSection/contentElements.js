@@ -94,7 +94,7 @@ export const Img = styled.img`
 width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
-border-radius: ${({isRounded}) => (isRounded ? "50%" : "")};
+border-radius: ${({isRounded}) => (isRounded ? "70%" : "")};
 `
 
 export const List = styled.ul`
